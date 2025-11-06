@@ -27,7 +27,7 @@ public final class WitherGriefing extends JavaPlugin {
         return (Wither) Bukkit.getEntity(ws.getOwnerUniqueId());
     }
 
-    private String grief_name;
+    public String grief_name;
 
     @Override
     public void onEnable() {
